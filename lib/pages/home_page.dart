@@ -140,11 +140,20 @@ class HomePage extends StatelessWidget {
             shrinkWrap: true,
             children: <Widget>[
               _buildCard('Sean', 'images/1.png', 'Available', 1),
-              _buildCard('Tom', 'images/image00001.jpg', 'Away', 2),
+              _buildCard('Tom', 'images/image00001.png', 'Away', 2),
               _buildCard('Natsu', 'images/image00002.jpg', 'Away', 3),
               _buildCard('Grey', 'images/image00003.jpg', 'Available', 4),
               _buildCard('Prof', 'images/image00004.jpg', 'Away', 5),
-              _buildCard('Kim', 'images/image00005.jpg', 'Available', 6)
+              _buildCard('Kim', 'images/image00005.jpg', 'Available', 6),
+              _buildCard('Kensy', 'images/image00006.jpg', 'Available', 7),
+              _buildCard('Sulo', 'images/image00007.jpg', 'Away', 8),
+              _buildCard('Chris', 'images/image00008.jpg', 'Away', 9),
+              _buildCard('Erza', 'images/image00009.jpg', 'Available', 10),
+              _buildCard('Osan', 'images/image00010.jpg', 'Available', 11),
+              _buildCard('Kirwa', 'images/image00011.jpg', 'Available', 12),
+              _buildCard('Rotich', 'images/image00012.jpg', 'Available', 13),
+              _buildCard('Poh', 'images/image00013.jpg', 'Available', 14),
+              _buildCard('Mohamed', 'images/image00014.jpg', 'Away', 15)
             ],
           )
         ],
